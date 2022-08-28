@@ -4,9 +4,7 @@ Create todo app with Typescript
 
 Example video:
 
-<video width="100%" controls>
-  <source src="https://res.cloudinary.com/woufu/video/upload/v1661682721/example_f4kfjg.mov">
-</video>
+[![Example Video](https://res.cloudinary.com/woufu/video/upload/q_auto,c_pad,b_auto:predominant/v1661682721/example_f4kfjg.jpg)](https://res.cloudinary.com/woufu/video/upload/v1661682721/example_f4kfjg.mov)
 
 ## Your tasks:
 
