@@ -1,0 +1,115 @@
+.bg {
+  background-color: #eefef9;
+}
+.todoTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container-box {
+  flex-basis: 800px;
+  background-color: white;
+  padding: 25px;
+}
+.container-formInput {
+  display: flex;
+}
+.inputAdd {
+  flex: 1;
+  padding: 7px;
+  border: 2px solid #7f808654;
+  border-radius: 3px;
+}
+.btnTodo {
+  border-radius: 3px;
+  background: white;
+  border: 2px solid;
+  padding: 7px;
+}
+.btnAdd {
+  border-color: #31bb95;
+  color: #31bb95;
+  margin-left: 15px;
+}
+.btnAdd:hover {
+  background-color: #31bb95;
+  color: white;
+  transition: 0.3s;
+}
+
+.container-list {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label-list {
+  flex: 1;
+}
+
+.btnDone {
+  border-color: #52d772;
+  color: #52d772;
+}
+.btnDone:hover {
+  background-color: #52d772;
+  color: white;
+  transition: 0.3s;
+}
+.btnRemove {
+  border-color: #e1263f;
+  color: #e1263f;
+  margin-left: 15px;
+}
+.btnRemove:hover {
+  background-color: #e1263f;
+  color: white;
+  transition: 0.3s;
+}
+.btnNotDone {
+  border-color: #e9e9eb;
+  color: #1c1c1c;
+}
+
+.btnNotDone:hover {
+  border-color: #aeaeae;
+  background-color: #5c5c5d7f;
+  color: white;
+  transition: 0.3s;
+}
+
+.label-line-through {
+  text-decoration: line-through;
+  color: #53d772;
+}
+.bottom-list {
+  color: #b1b2b3;
+}
+.bottom-list label,
+.bottom-list button {
+  font-weight: 300;
+}
+.bottom-list button {
+  color: #b1b2b3;
+  background: none;
+  border-radius: 6px;
+  border: none;
+  padding: 0;
+}
+.pd-button {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.active {
+  border: 2px solid #e9e9eb !important;
+}
+.btnClear:hover {
+  text-decoration: underline;
+}
